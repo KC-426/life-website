@@ -1,0 +1,14 @@
+.product-detail {
+  margin-bottom: 0px; 
+  
+  &__wrapper {
+    padding-bottom: 5px;
+    border-bottom: 1px solid setShadeColor(light);
+    
+    .product-detail__slide-two {
+      @include mq(md) {
+        margin-bottom: emCal(16, 70);
+      }
+    }
+  }
+}

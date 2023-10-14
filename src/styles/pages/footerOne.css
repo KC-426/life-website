@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .footer-one .container .footer-one__header .footer-one__header__logo img{
+        margin-left: -220px;
+       
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-one .container .footer-one__header .footer-one__header__logo img{
+          margin-left: -175px;
+          width: 160px;
+         
+      }
+  }
+
+  @media (max-width: 355px) {
+    .footer-one .container .footer-one__header .footer-one__header__logo img{
+          margin-left: -143px;
+          width: 132px;
+         
+      }
+  }

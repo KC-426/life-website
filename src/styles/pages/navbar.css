@@ -1,0 +1,150 @@
+/* .menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 5rem;
+  padding: 0 20px;
+}
+
+.menu__wrapper__logo img {
+  max-width: 170px; 
+  height: auto;
+}
+
+.navigator ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigator ul li {
+  margin-right: 20px;
+  font-size: 16px;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    text-decoration: none;
+    transition: color 0.15s;
+
+    &:hover,
+    .current-item a {
+      color: white;
+    }
+  }
+}
+
+.toggle-nav {
+  display: none;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-box {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  width: 20%;
+  margin-top: 1.8rem;
+  margin-left: -2rem;
+
+  form {
+    display: flex;
+
+    input {
+      flex: 1;
+      height: 30px;
+      padding: 0 8px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      font-size: 14px;
+    }
+
+    button {
+      height: 30px;
+      padding: 0 12px;
+      border: 0;
+      border-radius: 0 2px 2px 0;
+      background: white;
+      font-size: 14px;
+      font-weight: 600;
+      color: #333; 
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    height: auto;
+
+    .menu__wrapper__logo img {
+      max-width: 80px;
+      height: auto;
+    }
+  }
+
+  .toggle-nav {
+    display: block;
+    padding: 15px 0;
+  }
+
+  .navigator ul {
+    display: none;
+    flex-direction: column;
+    padding: 10px 0;
+
+    &.active {
+      display: flex;
+    }
+
+    li {
+      margin: 5px 0;
+      font-size: 16px;
+      position: relative;
+      padding-left: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: black;
+
+        &:hover {
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+
+  .search-box {
+    right: 2; 
+    top: 70px; 
+    width: auto; 
+
+    form {
+      input {
+        width: 100%;
+      }
+    }
+  }
+} */
+
+
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 5rem;
+  padding: 0 20px;
+}
